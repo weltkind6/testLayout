@@ -167,6 +167,7 @@ h2 {
   width: 420px;
   height: 420px;
   margin: 30px 0 0 30px;
+  z-index: -1;
 }
 .advantages__title {
   color: #333333;
@@ -272,5 +273,38 @@ h2 {
 .serviceButton-block {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 65px;
+}
+/* Projects */
+.projects__wrapper {
+  padding: 80px 0 100px 0;
+}
+.projects-title {
+  font-size: 30px;
+  color: #333333;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.projects-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projects-img {
+  margin-top: 22px;
+}
+.projects-img__flex {
+  display: flex;
+}
+
+.projects-button {
+  background: #ffb619;
+  padding: 18px 34px;
+}
+.projectButton-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
 }
