@@ -285,6 +285,22 @@ h2 {
   text-transform: uppercase;
   font-weight: bold;
 }
+.project-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 610px;
+  text-transform: uppercase;
+  color: f2f2f2;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.project-nav > a {
+  text-decoration: none;
+  color: #666666;
+}
+.project-nav > a:hover {
+  color: #ffb619;;
+}
 
 .projects-header {
   display: flex;
@@ -308,3 +324,25 @@ h2 {
   justify-content: center;
   margin-top: 65px;
 }
+/* Problems */
+.problems {
+  background: url(img/backBearsNonColor.png) center no-repeat;
+  background-size: cover;
+}
+.problems__wrapper {
+  padding: 190px 0 220px 0;
+}
+.problems-title {
+  font-size: 36px;
+  text-transform: uppercase;
+} 
+.problems__wrapper > button {
+  font-size: 18px;
+  background-color: #ffb619;
+  padding: 16px 35px 16px 20px;
+  margin-top: 40px;
+}
+.problems__wrapper > div {
+  width: 550px;
+}
+
