@@ -10,6 +10,16 @@
 }
 
 .title {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -56,7 +66,6 @@
 }
 .logo__title > div:first-child {
   font-size: 28px;
-  font-weight: bold;
 }
 .logo__title > div:last-child {
   font-size: 14px;
@@ -138,10 +147,10 @@
   justify-content: space-between;
   padding: 70px 0;
 }
-h2 {
+.expirience-title {
   color: #333333;
   font-size: 26px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 .expirience__wrapper > button {
   font-size: 18px;
@@ -173,7 +182,6 @@ h2 {
   color: #333333;
   font-size: 3em;
   font-weight: 700;
-  text-transform: uppercase;
 }
 .underLine {
   border-bottom: solid 5px #1c3e9b;
@@ -203,7 +211,6 @@ h2 {
 }
 .content-title {
   font-size: 18px;
-  font-weight: bold;
   color: #333333;
 }
 .content-block:first-child {
@@ -226,8 +233,6 @@ h2 {
 
 .services-title {
   font-size: 35px;
-  font-weight: bold;
-  text-transform: uppercase;
 }
 .services {
   background: url(img/backBearsNonColor.png) center no-repeat;
@@ -282,7 +287,6 @@ h2 {
 .projects-title {
   font-size: 30px;
   color: #333333;
-  text-transform: uppercase;
   font-weight: bold;
 }
 .project-nav {
@@ -299,7 +303,7 @@ h2 {
   color: #666666;
 }
 .project-nav > a:hover {
-  color: #ffb619;;
+  color: #ffb619;
 }
 
 .projects-header {
@@ -334,8 +338,7 @@ h2 {
 }
 .problems-title {
   font-size: 36px;
-  text-transform: uppercase;
-} 
+}
 .problems__wrapper > button {
   font-size: 18px;
   background-color: #ffb619;
@@ -345,4 +348,58 @@ h2 {
 .problems__wrapper > div {
   width: 550px;
 }
+/* Location */
+.location {
+  background: url(img/expBG.png) center;
+  background-size: initial;
+}
+.location__wrapper {
+  padding: 80px 0 95px 0;
+}
+.location-titles {
+  color: #333333;
+  display: flex;
+  margin-bottom: 40px;
+}
+.location-title {
+  margin-right: 337px;
+}
+.form {
+  width: 640px;
+  height: 290px;
+  margin-left: 90px;
+}
+.form-content {
+  display: flex;
+}
+.form-flex {
+  display: flex;
+  width: 640px;
+}
+.mb-3 {
+  width: 100%;
+  margin-top: -20px;
+}
 
+.form-flex > div:first-child {
+  margin-right: 20px;
+}
+.submit {
+  background: #ffb619;
+  padding: 18px 40px;
+  margin-top: 35px;
+}
+
+.map-block {
+  width: 470px;
+  height: 420px;
+  background: #e5e5e5;
+  outline: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map-block > img {
+  width: 36px;
+  height: 50px;
+}
