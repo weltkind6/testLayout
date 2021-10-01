@@ -32,6 +32,7 @@
   outline: none;
   color: #fff;
   font-weight: bold;
+  font-size: 15px;
 }
 
 /* header */
@@ -206,4 +207,70 @@ h2 {
 }
 .content-block:first-child {
   margin-bottom: 40px;
+}
+
+/* Services */
+.services__wrapper {
+  padding: 80px 0 95px 0;
+}
+.services-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services-underline {
+  margin: 20px 0 65px 0;
+}
+
+.services-title {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.services {
+  background: url(img/backBearsNonColor.png) center no-repeat;
+  background-size: cover;
+}
+.services-underline {
+  border-bottom: solid 5px #fff;
+  width: 60px;
+}
+.services__list {
+  display: flex;
+}
+.service-outer {
+  width: 270px;
+  outline: 5px solid #013e99;
+  margin-right: 30px;
+}
+.service-outer:hover {
+  background: #013e99;
+  cursor: pointer;
+}
+.service-outer:last-child {
+  margin-right: 0;
+}
+.service-inner {
+  padding: 48px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.service-inner > img {
+  margin-bottom: 29px;
+}
+.service-subTitle {
+  font-size: 24px;
+  margin-bottom: 23px;
+}
+.servise-button {
+  background: #ffb619;
+  padding: 18px;
+}
+.serviceButton-block {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
