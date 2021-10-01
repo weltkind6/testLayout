@@ -26,11 +26,18 @@ h6 {
   outline: 2px solid #000;
 }
 .content {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
+.button {
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  color: #fff;
+}
 h1 {
-  color: #f52f52;
+  color: #fff;
+  font-size: 40px;
 }
 /* header */
 .top-heading {
@@ -74,11 +81,42 @@ h1 {
   text-transform: uppercase;
   font-weight: bold;
 }
-.header-nav > div:last-child {
+.header-nav > img {
   width: 18px;
   height: 18px;
   margin-right: 0;
 }
 .header-nav > div {
   margin-right: 35px;
+}
+/* Remodeling */
+.remodeling {
+  background: url(img/backgorindTop.jpg) center no-repeat;
+}
+.remodeling__wrapper {
+  display: flex;
+  padding: 170px 30px 150px 115px;
+}
+.expert__content {
+  margin-top: 35px;
+  margin-left: 115px;
+}
+.expert__content > p {
+  margin-top: 22px;
+  margin-bottom: 40px;
+  color: #cccccc;
+  font-size: 18px;
+  line-height: 28px;
+}
+.oranged {
+  background-color: #ffb619;
+  padding: 18px 38px;
+  font-size: 15px;
+  margin-right: 20px;
+}
+.whited {
+  padding: 16px 36px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 2px solid #fff;
 }

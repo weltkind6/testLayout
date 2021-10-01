@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="23" viewBox="0 0 30 23">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 25px;
+        fill: #fff;
+        font-family: FontAwesome5FreeSolid;
+      }
+    </style>
+  </defs>
+  <text id="comment" class="cls-1" x="1.208" y="20.906">comment</text>
+</svg>
