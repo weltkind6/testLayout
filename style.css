@@ -10,7 +10,6 @@
 }
 
 .title {
-  font-weight: bold;
   margin: 0;
 }
 
@@ -36,10 +35,6 @@
 }
 
 /* header */
-.h1 {
-  font-size: 36px;
-  font-weight: bold;
-}
 .top-heading {
   background-color: #f2f2f2;
   color: #666666;
@@ -97,17 +92,21 @@
   margin-right: 35px;
 }
 /* Remodeling */
+.remodeling__title {
+  font-size: 40px;
+  font-weight: bold;
+}
 .remodeling {
   background: url(img/backgorindTop.jpg) center no-repeat;
   background-size: cover;
 }
 .remodeling__wrapper {
   display: flex;
-  padding: 170px 0 110px 150px;
+  padding: 170px 0 110px 110px;
 }
 .expert__content {
   margin-top: 30px;
-  margin-left: 110px;
+  margin-left: 100px;
 }
 .expert__content > p {
   margin-top: 22px;
@@ -141,9 +140,70 @@
 h2 {
   color: #333333;
   font-size: 26px;
+  text-transform: uppercase;
 }
 .expirience__wrapper > button {
   font-size: 18px;
   background-color: #ffb619;
   padding: 16px 35px 16px 20px;
+}
+/* Advantages */
+.advantages-block {
+  color: #666666;
+  margin: 30px 0 0 100px;
+}
+.advantages__wrapper {
+  padding: 80px 0 120px 0;
+  display: flex;
+}
+.img-block {
+  outline: 5px solid #e6e6e6;
+  width: 420px;
+  height: 420px;
+  margin-left: 5px;
+}
+.toyBackground {
+  width: 420px;
+  height: 420px;
+  margin: 30px 0 0 30px;
+}
+.advantages__title {
+  color: #333333;
+  font-size: 3em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.underLine {
+  border-bottom: solid 5px #1c3e9b;
+  width: 60px;
+  margin: 20px 0 30px 0;
+}
+
+.content-block__background {
+  width: 70px;
+  height: 50px;
+  background: #1c3e9b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.advantages-points {
+  display: flex;
+  margin-top: 40px;
+}
+.content-block {
+  display: flex;
+}
+.content-block__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.content-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+.content-block:first-child {
+  margin-bottom: 40px;
 }
