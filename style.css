@@ -44,6 +44,11 @@ h6 {
   font-weight: bold;
   font-size: 15px;
 }
+.button:hover {
+  background: #fff;
+  outline: 2px solid #ffb619;
+  color: #000;
+}
 
 /* header */
 .top-heading {
