@@ -31,7 +31,13 @@
         <div class="top-heading">
           <div class="top-heading__wrapper content">
             <div>We make your home more quality.</div>
-            <div><img src="img/sic.png" alt="socials" class="top-heading__socials"/></div>
+            <div>
+              <img
+                src="img/sic.png"
+                alt="socials"
+                class="top-heading__socials"
+              />
+            </div>
           </div>
         </div>
         <div class="main-heading content">
@@ -63,6 +69,113 @@
         <div class="remodeling__wrapper content">
           <img src="img/toy.png" alt="toy" />
           <div class="expert">
+            <!--Remodeling form-->
+            <div class="test-form" id="myForm">
+              <form>
+                <div class="close" id="close"></div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Name</label
+                  >
+                  <input
+                    type="name"
+                    required
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    placeholder="Enter your name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Phone number</label
+                  >
+                  <input
+                    type="tel"
+                    required
+                    class="form-control"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    placeholder="Format: 123-456-7890"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    placeholder="Enter your email"
+                  />
+                </div>
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >Personal data agreement</label
+                  >
+                </div>
+                <button type="submit" class="submit__button button" id="submit">
+                  Submit
+                </button>
+              </form>
+            </div>
+            <div class="test-form" id="myForm">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Name</label
+                  >
+                  <input
+                    type="name"
+                    required
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    placeholder="Enter your name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Phone number</label
+                  >
+                  <input
+                    type="tel"
+                    required
+                    class="form-control"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    placeholder="Format: 123-456-7890"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    placeholder="Enter your email"
+                  />
+                </div>
+
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >Personal data agreement</label
+                  >
+                </div>
+                <button type="submit" class="submit__button button" id="submit">
+                  Submit
+                </button>
+              </form>
+            </div>
             <div class="expert__content">
               <h1 class="title remodeling__title">
                 Expert Handyman & Remodeling
@@ -72,7 +185,7 @@
                 Proin quis porttitor sem. Donec ultrices felis quis tincidunt
               </p>
               <div class="buttons-block">
-                <button class="button oranged">learn more</button>
+                <button class="button oranged" id="learn">learn more</button>
                 <button class="button whited">get a quote</button>
               </div>
             </div>
@@ -462,13 +575,17 @@
           </div>
         </div>
         <div class="copyright">
-          <div class="copyright__wrapper content">   
-              <div>Copyright © 2018 <span class="copyright__company">Auhandy</span>. Get The Theme</div>      
+          <div class="copyright__wrapper content">
+            <div>
+              Copyright © 2018 <span class="copyright__company">Auhandy</span>.
+              Get The Theme
+            </div>
           </div>
         </div>
       </footer>
       <!--End-->
     </div>
+    <!--testform-->
 
     <!--Bootstrap-->
     <script
@@ -476,5 +593,6 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
