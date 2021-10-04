@@ -1,0 +1,32 @@
+@media only screen and (max-width: 940px) {
+    .body {
+        font-size: 12px;
+    }
+    .remodeling__wrapper {
+        display: flex;
+        padding: 170px 110px 110px 110px;
+      }
+    .remodeling__img {
+      width: 260px;
+      height: 270px;
+    }
+    .remodeling__title {
+        font-size: 25px;
+        font-weight: bold;
+      }
+      .expert__content {
+        margin-top: 30px;
+        margin-left: 90px;
+      }
+      .oranged {
+        padding: 13px 28px;
+        font-size: 14px;
+        margin-right: 20px;
+      }
+      .whited {
+        padding: 11px 26px;
+        border: 2px solid #fff;
+        font-size: 14px;
+      }
+      
+  }
